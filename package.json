@@ -1,0 +1,28 @@
+{
+  "name": "d3-polytree-propertiespanel",
+  "version": "1.0.0",
+  "description": "Properties panel for d3-polytree",
+  "main": "lib/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davcs86/d3-polytree-propertiespanel.git"
+  },
+  "author": "David Castillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davcs86/d3-polytree-propertiespanel/issues"
+  },
+  "homepage": "https://github.com/davcs86/d3-polytree-propertiespanel#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.25.0",
+    "inherits": "^2.0.3",
+    "min-dom": "^0.2.0",
+    "node-sass": "^3.13.0",
+    "sass-loader": "^4.0.2",
+    "scroll-tabs": "github:davcs86/scroll-tabs",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3"
+  }
+}
