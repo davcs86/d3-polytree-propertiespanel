@@ -1,10 +1,18 @@
-@import "~bootstrap-sass/assets/stylesheets/bootstrap/variables";
-@import "~bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+.pfdjs-container {
+  .pfdjs-propertiespanel{
+    @import "~bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+    @import "~bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
 
-@import "~bootstrap-sass/assets/stylesheets/bootstrap/normalize";
-@import "~bootstrap-sass/assets/stylesheets/bootstrap/print";
+    //@import "~bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+    //@import "~bootstrap-sass/assets/stylesheets/bootstrap/print";
 
-@import "~bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
-@import "~bootstrap-sass/assets/stylesheets/bootstrap/grid";
-@import "~bootstrap-sass/assets/stylesheets/bootstrap/forms";
-@import "~bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+    @import "~bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding";
+    @import "~bootstrap-sass/assets/stylesheets/bootstrap/_grid";
+    @import "~bootstrap-sass/assets/stylesheets/bootstrap/_forms";
+    @import "~bootstrap-sass/assets/stylesheets/bootstrap/_buttons";
+    @import "~choices.js/assets/styles/scss/base";
+
+    $choices-button-icon-path: "~choices.js/assets/icons";
+    @import "~choices.js/assets/styles/scss/choices";
+  }
+}
