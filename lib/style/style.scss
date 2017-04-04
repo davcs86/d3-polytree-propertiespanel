@@ -1,0 +1,30 @@
+.pfdjs-container {
+    @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+    @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
+
+    //@import "~bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+    //@import "~bootstrap-sass/assets/stylesheets/bootstrap/print";
+    @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding";
+    @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_grid";
+    @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_forms";
+    @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_buttons";
+
+  #pfdjs-pp-container {
+    margin: 10px 16px;
+
+    @import "../../node_modules/choices.js/assets/styles/scss/base";
+
+    $choices-button-icon-path: "~choices.js/assets/icons";
+    @import "../../node_modules/choices.js/assets/styles/scss/choices";
+
+    @import "tabs/tabs";
+    .pfdjs-pp-contents {
+      margin-top: -6px;
+      .pfdjs-pp-contents {
+        height: 500px;
+
+        background-color: #fff;
+      }
+    }
+  }
+}
