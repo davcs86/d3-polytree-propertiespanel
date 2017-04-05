@@ -13,10 +13,14 @@
   "bugs": {
     "url": "https://github.com/davcs86/d3-polytree-propertiespanel/issues"
   },
+  "browser":{
+    "window": "window"
+  },
   "homepage": "https://github.com/davcs86/d3-polytree-propertiespanel#readme",
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
     "choices.js": "^2.7.7",
+    "color-picker": "github:tovic/color-picker",
     "css-loader": "^0.25.0",
     "d3-polytree": "github:davcs86/d3-polytree#v2.0-beta",
     "eslint": "^3.19.0",
