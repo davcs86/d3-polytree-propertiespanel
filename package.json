@@ -13,24 +13,26 @@
   "bugs": {
     "url": "https://github.com/davcs86/d3-polytree-propertiespanel/issues"
   },
-  "browser":{
+  "browser": {
     "window": "window"
   },
   "homepage": "https://github.com/davcs86/d3-polytree-propertiespanel#readme",
   "devDependencies": {
-    "bootstrap-sass": "^3.3.7",
     "choices.js": "^2.7.7",
-    "color-picker": "github:tovic/color-picker",
     "css-loader": "^0.25.0",
     "d3-polytree": "github:davcs86/d3-polytree#v2.0-beta",
+    "empty-module": "0.0.2",
     "eslint": "^3.19.0",
     "eslint-loader": "^1.7.1",
+    "jquery": "^1.11.2",
+    "jquery-ui": "^1.12.1",
     "lodash": "^4.17.4",
     "min-dom": "^0.2.0",
     "node-sass": "^3.13.0",
     "sass-loader": "^4.0.2",
     "scroll-tabs": "github:davcs86/scroll-tabs",
     "slickgrid": "^2.3.3",
+    "spectrum-colorpicker": "^1.8.0",
     "style-loader": "^0.13.1",
     "svg-inline-loader": "^0.7.1",
     "svgo-loader": "^1.2.1",
