@@ -20,7 +20,6 @@
   "devDependencies": {
     "choices.js": "^2.7.7",
     "css-loader": "^0.25.0",
-    "d3-polytree": "github:davcs86/d3-polytree#v2.0-beta",
     "empty-module": "0.0.2",
     "eslint": "^3.19.0",
     "eslint-loader": "^1.7.1",
